@@ -1,0 +1,66 @@
+.headerParent {
+    width: 80%;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .headerSection {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            width: 52px;
+            height: 52px;
+        }
+    }
+}
+
+
+
+
+.navBar {
+    display: flex;
+    gap: 20px;
+
+    a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #151515;
+    }
+}
+
+.logAndRegParent {
+    display: flex;
+    width: 220px;
+    height: 52px;
+    gap: 20px;
+
+    button {
+        width: 100px;
+        height: 52px;
+    }
+
+    .log {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: black;
+    }
+
+    .reg {
+        background: #151515;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+}
