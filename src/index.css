@@ -28,9 +28,11 @@ body {
 
 
 }
-h1{
+
+h1 {
   margin: 0;
 }
+
 .container {
   background: #F0F0F0;
   width: 100vw;
@@ -43,10 +45,16 @@ h1{
 
 button {
   cursor: pointer;
+  /* transition: all 0.2s; */
+}
+
+button:active {
+  /* transform: scale(0.8); */
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: light) {

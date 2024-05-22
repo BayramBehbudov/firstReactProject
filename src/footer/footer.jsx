@@ -6,6 +6,11 @@ import FooterLeft from "./elementler/footerLeft.jsx";
 import FooterCenter from "./elementler/footerCenter.jsx";
 import FooterRight from "./elementler/footerRight.jsx";
 
+// import Facebook from "./img/fbIcon.svg";
+// import Twitter from "./img/twitterIcon.svg";
+// import Google from "./img/googleIcon.svg";
+// import Linkedin from "./img/linkedinIcon.svg";
+// import Youtube from ".img/ytbIcon.svg";
 
 function footer() {
   return (
@@ -15,7 +20,13 @@ function footer() {
           <img src={FotrIcon} alt="" />
           <h3>Want to recieve our awesome stories?</h3>
           <Input />
-          <p>© bayram.behbudov@gmail.com, All rights reserved.</p>
+          <p>
+            ©{" "}
+            <a href="mailto:bayram.behbudov@gmail.com">
+              bayram.behbudov@gmail.com
+            </a>
+            , All rights reserved.
+          </p>
         </div>
         <div className="footerSection right">
           <div className="rightTop">

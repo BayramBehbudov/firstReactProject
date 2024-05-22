@@ -1,12 +1,23 @@
-import "../style/header.css"
+import "../style/header.css";
 
 function logAndReg() {
   return (
     <div className="logAndRegParent">
-      <button className="log">Login</button>
-      <button className="reg">Sign Up</button>
+      <button className="log" onClick={logEvent}>
+        Login
+      </button>
+      <button className="reg" onClick={regEvent}>Sign Up</button>
     </div>
-  )
+  );
 }
 
-export default logAndReg
+
+function logEvent() {
+  alert("Successful login");
+}
+
+function regEvent() {
+  alert("Successful registration");
+}
+
+export default logAndReg;

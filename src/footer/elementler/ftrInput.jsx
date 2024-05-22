@@ -1,12 +1,21 @@
-import "../style/footer.css"
+import "../style/footer.css";
 
 function ftrInput() {
   return (
     <div className="inputContainer">
-    <input type="text" placeholder="Enter your email" />
-    <button>Subcribe</button>
-  </div>
-  )
+      <input
+        className="footerEmailInput"
+        type="text"
+        placeholder="Enter your email"
+      />
+      <button onClick={startedEvent}>Subcribe</button>
+    </div>
+  );
 }
 
-export default ftrInput
+function startedEvent() {
+  let value = document.querySelector(".footerEmailInput").value;
+  alert(`Successful Subscription:  ${value}`);
+}
+
+export default ftrInput;
